@@ -199,12 +199,7 @@ Santiago Tena
 
 ; This function will serve to show the results
 (define (displayTokens lst)
-  (let loop ([lst lst] [result (format "Current Data:            Result: ~n~n")])
-    (if (empty? lst)
-        (displayln result)
-        (loop (cdr lst) (string-append result (format " ~a            ~a ~n ~n"
-                                                      (first (car lst))
-                                                      (second (car lst))))))))
+displayTokens)
 
 
 ; In this line we will define the instance of the DFA to be used
