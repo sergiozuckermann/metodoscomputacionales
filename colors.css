@@ -1,0 +1,47 @@
+/*Sergio Zuckermann and Santiago Tena */
+/*CSS to change the colors of the pertinent category of the Output html of the highlighter */
+
+.comments {
+    color: green;
+  }
+  
+  .reserved_words {
+    color: blue;
+  }
+  
+  .builtfunction {
+    color: yellowgreen;
+  }
+  
+  .whitespace {
+    color: gray;
+  }
+  
+  .numbers {
+    color: orange;
+  }
+  
+  .strings {
+    color: red;
+  }
+  
+  .identifier {
+    color: teal;
+  }
+  
+  .punctuation {
+    color: brown;
+  }
+  
+  .operator {
+    color: navy;
+  }
+  
+  .delimiter {
+    color: magenta;
+  }
+  
+  .unknown {
+    text-decoration: underline;
+  }
+  
