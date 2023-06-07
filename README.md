@@ -17,5 +17,5 @@ En _in\_filename_ se debe especificar el nombre del archivo a leer y el path en 
 # Notación Big-O
 El tiempo de ejecución del programa dependerá del número de tokens identificados, sin embargo no significa que la complejidad aumenta. Esto quiere decir que la notación para las funciones es de 
     
-    O = (n * m)
+    O(n * m)
 siendo n la cantidad de tokens en promedio por linea y m la catidad de lineas
