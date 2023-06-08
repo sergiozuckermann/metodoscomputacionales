@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Python Syntax Highlighter</title>
+    <link rel="stylesheet" href="colors.css">
+  </head>
+  <body>
+    <pre>
+      <span class="reserved_words">def</span><span class="punctuation"> </span><span class="identifier">factorial</span><span class="delimiter">(</span><span class="identifier">n</span><span class="delimiter">)</span><span class="delimiter">:</span><span class="punctuation">
+</span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="reserved_words">if</span><span class="punctuation"> </span><span class="identifier">n</span><span class="punctuation"> </span><span class="delimiter">=</span><span class="delimiter">=</span><span class="punctuation"> </span><span class="numbers">0</span><span class="delimiter">:</span><span class="punctuation">
+</span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="reserved_words">return</span><span class="punctuation"> </span><span class="numbers">1</span><span class="punctuation">
+</span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="reserved_words">else</span><span class="delimiter">:</span><span class="punctuation">
+</span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="punctuation"> </span><span class="reserved_words">return</span><span class="punctuation"> </span><span class="identifier">n</span><span class="punctuation"> </span><span class="unknown">* factorial(n - 1)
+</span><span class="punctuation">
+</span><span class="comments"># Test the factorial function</span><span class="punctuation">
+</span><span class="identifier">number</span><span class="punctuation"> </span><span class="delimiter">=</span><span class="punctuation"> </span><span class="builtfunction">int</span><span class="delimiter">(</span><span class="builtfunction">input</span><span class="delimiter">(</span><span class="strings">"Enter a number: "</span><span class="delimiter">)</span><span class="delimiter">)</span><span class="punctuation">
+</span><span class="identifier">result</span><span class="punctuation"> </span><span class="delimiter">=</span><span class="punctuation"> </span><span class="identifier">factorial</span><span class="delimiter">(</span><span class="identifier">number</span><span class="delimiter">)</span><span class="punctuation">
+</span><span class="builtfunction">print</span><span class="delimiter">(</span><span class="strings">"The factorial of", number, "is"</span><span class="delimiter">,</span><span class="punctuation"> </span><span class="identifier">result</span><span class="delimiter">)</span>
+    </pre>
+  </body>
+</html>
